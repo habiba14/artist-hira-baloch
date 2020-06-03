@@ -1,0 +1,175 @@
+/* body{
+    background-color: #fff;
+}
+.contact{
+    padding: 4%;
+    height: 300px;
+      
+
+}
+.container-contact {
+    /* border: 2px solid orange !important; */
+    /* padding-left: 60px !important;
+    padding-right: 60px !important;
+    background-color: rgba(255, 160, 122, 0.335);
+}
+
+.col-md-3{
+    background:;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: orange;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: orange;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+ .fa-envelope {
+    color: orange;
+    font-size: 70px !important;
+   text-align:center !important;
+   padding-left:60px !important;
+  
+    
+} 
+.fa-envelope-o {
+    color: orange;
+    font-size: 15px !important;
+}
+.fa-phone {
+    color: orange;
+    font-size: 15px !important;
+}
+ */ */
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+  
+  * {
+    box-sizing: border-box;
+ 
+}
+  
+  /* Style inputs */
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid orange;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid orange;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+  }
+  
+  input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: orange;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 0px;
+    padding: 50px;
+
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 0px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1000px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+ margin-left: 10px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .img1 {
+     width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+.centered {
+ font-size: 40px;
+}
+}
+@media screen and (max-width: 600px) {
+    .centered {
+     text-align: center;
+    }
+    }
+@media screen and (max-width: 600px) {
+    img {
+     width: 100%;
+    }
+  }
